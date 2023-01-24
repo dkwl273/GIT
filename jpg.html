@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+header{
+    border-bottom: 2px solid pink;
+    padding-bottom: 10px;
+
+}
+main{
+    display: flex;
+
+}
+h1{
+    text-align: center;
+    color:  pink;
+}
+.image-wrapper{
+    width: 200px; height: 200px;
+    border-radius: 50%;
+    background-image: url(./KakaoTalk_20211129_044547230.jpg);
+    background-size: cover;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.inform{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 60px;
+    
+}
+.id{
+    width: 100px;
+    height: 20px;
+    color: white;
+    background-color: palevioletred;
+}
+.container{
+    border: 1px black solid ;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    width: 500px;
+    height: 200px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.left-side{
+    border: 1px black solid ;
+    width: 30%;
+    height: 100%;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+}
+.up{
+    border: 1px black solid ;
+    height: 30%;
+    text-align: center;
+    padding-top:20px;
+}
+.down{
+    height: 70%;
+    border: 1px black solid ;
+}
+</style>
+
+
+</head>
+<body>
+<header><h1>정민서 소개!</h1></header>   
+<main>
+    <div class="image-wrapper"></div> 
+    <div class="inform">
+        <input class="id" type="text" value="이름 : 정민서">
+        <input class="id" type="text" value="성별 : 여">
+        <input class="id" type="text" value="취미 : 게임하기">
+    </div>
+
+</main>
+
+<div class="container">
+    <div class="left-side"></div>
+    <div class="right-side">
+        <div class="up">안녕하세융~</div>
+        <div class="down"></div>
+    </div>
+</div>
+    
+</body>
+</html>
