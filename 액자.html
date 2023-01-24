@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+.container{
+    width: 300px;
+    height: 200px;
+    background-color: palevioletred;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+.frame{
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    background-color: whitesmoke;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 1px 2px 1px gray;
+}
+.image-wrapper{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    background-image: url(./KakaoTalk_20211129_044547230.jpg);
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+</style>
+<body>
+    <div class="container">
+        <div class="frame">
+            <div class="image-wrapper">
+            </div>
+        </div>    
+    </div>
+</body>
+</html>
