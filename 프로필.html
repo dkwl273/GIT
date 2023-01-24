@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    header{
+        text-align: center;
+        border-bottom: 2px solid pink;
+        color: pink;
+    }
+    .image{
+        width: 200px;
+        height: 200px;
+        background-image: url(./KakaoTalk_20211129_044547230.jpg);
+        border-radius: 50%; background-size: cover;
+        margin-left: 30px; margin-top: 30px;
+        border: 3px palevioletred solid;
+
+    }
+    .text-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 200px;
+        background-color: whitesmoke;
+        margin-left: 30px; margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    input{
+        height: 25px; width: 100px;
+        background-color:palevioletred;
+        color: white;
+        box-shadow: 1px 1px 1px 1px white;
+        margin-left: 20px;
+    }
+    main{
+        display: flex;
+        justify-content: space-around;
+    }
+    .container{
+        margin-top: 50px;
+        margin-left: 30px;
+        width: 500px;
+        height: 200px;
+        background-color: darkgrey;
+        border-radius: 10px 10px 10px 10px;
+        display: flex;
+    }
+    .left-side{
+        border-right: 1px solid white;
+        width: 30%;
+        height: 100%;
+    }
+    .right-side{
+        display: flex;
+        display: row;
+        width: 70%;
+        height: 100%;
+    }
+    .top{
+        border-bottom: 1px solid white;
+        height: 50%;
+        width: 100%;
+        color: white;
+        text-align: center;
+   
+    }
+</style>
+</head>
+
+<body>
+    <header>
+        <h1>정민서 소개</h1>
+    </header>
+    <main>
+        <div class="image"></div>
+        <div class="text-wrapper">
+            <input type="text" value="이름:정민서">
+            <input type="text" value="성별:여">
+            <input type="text" value="취미:게임">
+        </div>
+
+    </main>
+    <div class="container">
+        <div class="left-side"></div>
+        <div class="right-side">
+            <div class="top">안녕</div>
+            <div class="bottom"></div>
+        </div>
+    </div>
+</body>
+</html>
